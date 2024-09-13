@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding activityMainBinding;
 
-    Person person = new Person("Liam", "24", "liam@gmail.com");
+    Person person = new Person("", "", "");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
