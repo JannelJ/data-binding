@@ -3,13 +3,13 @@ package com.northcoders.databindingdemo;
 public class Person {
 
     private String name;
-    private int age;
+    private String age;
     private String email;
 
     public Person() {
 
     }
-    public Person(String name, int age, String email) {
+    public Person(String name, String age, String email) {
         this.name = name;
         this.age = age;
         this.email = email;
@@ -23,11 +23,11 @@ public class Person {
         this.name = name;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 
